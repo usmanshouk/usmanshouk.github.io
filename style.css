@@ -1,0 +1,162 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #337ab7;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 20px;
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-in.fade-in-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Contact section */
+#contact {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-info p {
+  margin: 10px;
+}
+
+.contact-info a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Icons */
+.contact-info i {
+  margin-right: 5px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+nav {
+  width: 100%;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 20px;
+  }
+}
+
+#.date {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: bold;
+}
